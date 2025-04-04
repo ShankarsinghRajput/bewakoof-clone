@@ -375,9 +375,108 @@ marquee {
     margin-right: 15px;
     border-radius: 10px;
 }
+/* #footer {
+    background-color: #1C1C1C;
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+#footer1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
 
 
-    
+   
 
+/* Footer Styling */
+#footer {
+    background-color: #1C1C1C;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
 
-    
+/* Flex container for footer sections */
+#footer1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+/* Footer sections */
+.xyz {
+    color: gold;
+    width: 20%;
+    text-align: left;
+    font-size: smaller;
+   
+}
+
+/* Lists */
+.xyz ul {
+    list-style: none;
+    padding: 0;
+}
+
+.xyz li {
+    margin: 5px 0;
+}
+
+.xyz a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Subscription Box */
+input {
+    padding: 8px;
+    border: none;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: gold;
+    border: none;
+    cursor: pointer;
+}
+
+/* Logo Styling */
+.footer-logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Social Media Icons */
+.xyz img {
+    width: 25px;
+    margin: 5px;
+}
+
+/* App Store and Play Store Logos */
+#footer2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.store-logo {
+    width: 120px;
+    margin: 10px;
+}
+#footer1 img{
+    height: 50px;
+    width: 190px;
+    margin: 0;
+    padding-top:10px ;
+    padding-right: 200px;
+}
+
