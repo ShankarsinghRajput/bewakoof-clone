@@ -1,6 +1,7 @@
 #Webpage{
     width: 100%;
-    height: 2000px; 
+    /* height: 2000px;  */
+    height: auto;
     background-color: #FFFFFF;
     margin: 0;
     padding: 0;
@@ -82,6 +83,7 @@
     display: flex;
     gap: 30px;
     margin-right: 230px;
+    
 }
 
 .nav-links a {
@@ -92,6 +94,7 @@
     font-size: 16px;
     transition: 0.3s;
     margin-top: 20px;
+   
     
 }
 
@@ -480,3 +483,147 @@ button {
     padding-right: 200px;
 }
 
+/* Login page */
+
+#log-main{
+    height: auto;
+    width: 100%;
+    
+    margin-right: 10px;
+    padding-top: 80px;
+    display: flex;
+    background-color: #FBFBFB;
+    
+
+}
+.login-l{
+    width: 50%;
+    /* margin-right: 20px; */
+    height: 1000px;
+    /* border: 1px solid blue; */
+    background-image: url(https://images.bewakoof.com/web/rm-login-desk-v2.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+.login-r{
+    margin-top: 80px;
+    height: 700px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    line-height: 8px;
+    
+
+}
+.login-r h2 {
+    font-weight: 550;
+    font-size: larger;
+    white-space: normal;
+    /* overflow: hidden; */
+    /* max-width: 65ch; */
+    text-overflow: ellipsis;
+    text-transform: none;
+    color: black;
+    /* font-size: var(--text-lg); */
+    /* font-weight: var(--font-semi-bold); */
+}
+
+.login-r p{
+    color: #747F94;
+  
+    
+}
+.phone-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.phone-input img {
+    height: 20px;
+    padding: 10px;
+    
+}
+
+.phone-input input {
+    /* flex-grow: 1; */
+    border: none;
+    padding: 2px;
+    margin: 20px;
+    outline: none;
+    text-align: left;
+    ;
+    
+}
+
+#continue-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #e0e0e0;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.line{
+    height: 50px;
+    font-size:x-large;
+    color: #ccc;
+}
+.or-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.or-divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0 10px;
+}
+
+.or-divider span {
+    font-size: 12px;
+    color: #888;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.google-btn,
+.facebook-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.agreement {
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.agreement a {
+    color: #007bff;
+    text-decoration: none;
+}

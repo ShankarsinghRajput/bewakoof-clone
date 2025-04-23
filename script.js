@@ -10,5 +10,18 @@ let currentPrice = productCard.querySelector(".current-price");
 currentPrice.textContent = "₹2299$";
 
 
+
 let discountPrice = productCard.querySelector(".discount");
 discountPrice.textContent = "77%"
+
+
+
+const btn = document.querySelector("#continue-btn");
+
+
+if (btn) {
+  btn.style.width = "100%";
+  btn.style.backgroundColor = "#e0e0e0";
+  btn.style.fontWeight = "bold";
+  btn.style.cursor = "pointer"; 
+}-
